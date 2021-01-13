@@ -538,6 +538,7 @@ a.social-text {
     margin-right: 35px;
     font-size: 10px;
     letter-spacing: 1px;
+    
 }
 
 .social-holder a:last-of-type {
@@ -545,7 +546,7 @@ a.social-text {
 }
 
 .social-holder a{
-    color: black !important;
+    color: white !important;
 }
 /* ===================================
     4. Home CSS
