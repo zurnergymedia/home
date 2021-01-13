@@ -538,6 +538,7 @@ a.social-text {
     margin-right: 35px;
     font-size: 10px;
     letter-spacing: 1px;
+    
 }
 
 .social-holder a:last-of-type {
@@ -545,7 +546,7 @@ a.social-text {
 }
 
 .social-holder a{
-    color: black !important;
+    color: white !important;
 }
 /* ===================================
     4. Home CSS
@@ -1069,8 +1070,8 @@ footer {
 }
 
 .footer-logo img {
-    width: 135px;
-    height: 135px;
+    width: 80px;
+    height: 80px;
     margin: 0 auto 55px;
     display: block;
 }
@@ -1300,3 +1301,6 @@ footer {
     }
 
 }
+
+
+
