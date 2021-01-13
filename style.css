@@ -1070,8 +1070,8 @@ footer {
 }
 
 .footer-logo img {
-    width: 135px;
-    height: 135px;
+    width: 80px;
+    height: 80px;
     margin: 0 auto 55px;
     display: block;
 }
@@ -1301,3 +1301,6 @@ footer {
     }
 
 }
+
+
+
