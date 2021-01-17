@@ -48,12 +48,12 @@ body a:hover
 
 .site-wrapper ::selection 
 {
-    background-color: #fffaa3;
+    background-color: #ffc900;
 }
 
 .site-wrapper ::-moz-selection
 {
-    background-color: #fffaa3;
+    background-color: #ffc900;
 }
 
 .doc-loader 
@@ -96,7 +96,7 @@ body a:hover
     display: block;
     width: 106%;
     height: 10px;
-    background-color: #fffaa3;    
+    background-color: #ffc900;    
     position: absolute;
     left: -3%;
     bottom: 6px;
@@ -106,6 +106,10 @@ body a:hover
 .slick-slider.image-slider
 {
     margin-bottom: 50px;
+    width: 50% !important;
+    height: 50% !important;
+    margin: 0% auto !important;
+    
 }
 
 .slick-dots li button:before
@@ -132,6 +136,7 @@ body a:hover
 .content-830
 {
     width: 830px;
+    /* height: 100%; */
 }
 
 .content-570
@@ -145,6 +150,7 @@ body a:hover
     max-height: 100%;
     width: auto;
     height: auto;
+
 }
 
 
@@ -308,12 +314,12 @@ body a:hover
 
 .sm-clean a.current, .sm-clean a:hover, .main-menu.sm-clean .sub-menu li a.current, .main-menu.sm-clean .sub-menu li a:hover
 {
-    color: #fffaa3;
+    color: #ffc900;
 }
 
 .sm-clean a span.sub-arrow
 {
-    color: #fffaa3;
+    color: #ffc900;
     font-size: 18px !important;
     right: -50px;
     padding: 5px;
@@ -488,7 +494,7 @@ body a:hover
     display: block;
     width: 100%;
     height: 3px;
-    background-color: #fffaa3;
+    background-color: #ffc900;
     position: absolute;
     bottom: 6px;    
     left: -2px;
@@ -553,7 +559,7 @@ body a:hover
 
 .read-more-arrow a:hover
 {
-    color: #fffaa3;
+    color: #ffc900;
 }
 
 .read-more-arrow a span
@@ -722,7 +728,7 @@ body a:hover
     display: block;
     width: 106%;
     height: 5px;
-    background-color: #fffaa3;
+    background-color: #ffc900;
     position: absolute;
     left: -3%;
     bottom: 5px;
@@ -845,7 +851,7 @@ body a:hover
     display: block;
     width: 106%;
     height: 5px;
-    background-color: #fffaa3;
+    background-color: #ffc900;
     position: absolute;
     left: -3%;
     bottom: 6px;
@@ -1057,7 +1063,7 @@ body a:hover
     line-height: 28px;
     color: #000;
     font-weight: 900;
-    border-bottom: 5px solid #fffaa3;
+    border-bottom: 5px solid #ffc900;
     display: inline;
 }
 
@@ -1651,6 +1657,11 @@ li.social-footer a:first-child
     .slick-slider.image-slider
     {
         margin-bottom: 75px;
+        width: 50% !important;
+        height: 50% !important;
+        margin: 0% auto !important;
+
+}
     }
 
     .quote
@@ -1780,6 +1791,8 @@ li.social-footer a:first-child
     .content-570
     {
         max-width: 95%;
+        padding-top: 100% !important;
+        
     }
 
     #toggle
@@ -1847,41 +1860,119 @@ li.social-footer a:first-child
 
 
 
-section {
-    color: #fff;
-    margin: 0 auto;
-    line-height: 24px;
-    font-size: 1rem;
-    font-weight: 700;
 
-    ul {
-        list-style-type: none;
-        margin-bottom: 0;
-        margin-left: 0;
 
-        li {
-            display: inline-block;
-            margin-right: 2rem;
-            width: 6rem;
-        }
-    }
 
-    .timenumbers {
-        display: block;
-        font-size: 1.3rem;
-        font-weight: 400;
-        line-height: 1.5rem;
-        margin: 0 auto;
-        text-align: center;
-    }
 
-    p.timedescription {
-        font-size: 0.5rem;
-        font-variant: small-caps;
-        line-height: 1.5rem;
-        margin: 0 auto;
-        text-align: center;
-        position: relative;
-        top: 0px;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+
+  
+  
+  
+.container {
+    color: #333;
+
+    text-align: center;
+
+  }
+  
+ 
+  #headline{
+    font-size: 0.9em !important;
+    font-weight: normal;
+    /* letter-spacing: .125rem; */
+    text-transform: uppercase;
+  }
+ 
+  li {
+    display: inline-block;
+    font-size: 0.9em;  
+    /* list-style-type: none; */
+    padding: 0.5em !important;
+    text-transform: uppercase;
+
+  }
+  
+  li span {
+    display: block;
+
+    /* padding-top: 20% !important;  */
+  }
+  .time{
+      font-size: 3em !important ;
+       font-weight: 700;
+      
+  }
+#colon{
+    font-size: 3em !important ;
+       font-weight: 100;
+       text-align: start;
 }
+#colon2{
+    font-size: 3em !important ;
+       font-weight: 100;
+       text-align: start;
+}
+#countdown{
+    /* font-size: 1.5em; */
+   
+}
+
+  
+  .message {
+    font-size: 4rem;
+  }
+  
+  #content2 {
+    display: none;
+    /* padding: 1rem; */
+  }
+  
+  .emoji {
+    font-size: 0.4em !important;
+    padding: 1rem;
+    background-color: #ffc900;
+    border-radius: 20px;
+    color: #fff;
+  }
+  
+ 
+
+
+
+.button-page > a{
+    color: #fff !important;
+    background-color: #000;
+    padding: 17px 6px 17px 14px;
+    display: inline-block;
+    font-size: 11px;
+    min-width: 170px;
+    letter-spacing: 8px;
+    transition: opacity .3s ease;
+    border-radius: 10px;
+}
+
+.button-page:hover
+{
+    opacity: 0.8 !important;
+}
+
+.button-page
+{
+    cursor: pointer;   
+}
+
