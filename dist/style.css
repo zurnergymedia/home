@@ -125,9 +125,10 @@ h1.entry-title.page-title {
     font-family: 'Unna', serif;
     font-weight: 700;
     margin-bottom: 60px;
-    font-size: 47px;
+    font-size: 4em !important;
     line-height: 120%;
     padding: 0;
+    color: #520080;
 }
 
 .animate {
@@ -185,6 +186,31 @@ a.socail-text {
     letter-spacing: 1px;
     font-weight: 700;
 }
+.button-page > a{
+    color: #fff !important;
+    background-color: #520080;
+    padding: 17px 6px 17px 14px;
+    margin: 0% auto !important;
+    display: table;
+    font-size: 11px;
+    min-width: 170px;
+    letter-spacing: 8px;
+    transition: opacity .3s ease;
+    border-radius: 10px;
+    
+    
+}
+
+.button-page:hover
+{
+    opacity: 0.8 !important;
+}
+
+.button-page
+{
+    cursor: pointer;   
+}
+
 
 a.button {
     background-color: #000;
@@ -909,14 +935,16 @@ li.timeline-event:hover .timeline-event-date {
     padding: 12px 60px;
     margin: 0 auto;
     text-align: center;
-    background-color: #808080;
+    background-color: #520080;
     margin-top: -30px;
     position: relative;
     z-index: 1;
+    color: #fff;    
+    
 }
 
 .single-post .entry-content {
-    width: 680px;
+    width: 100%;
     float: left;
     margin: 0 auto;
     max-width: 100%;
@@ -1240,7 +1268,9 @@ footer {
         margin-left: 50px;
         margin-top: 40px;
         margin-bottom: 40px;
-    }
+    } 
+
+
 
     .grid-item, 
     .grid-sizer {

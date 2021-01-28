@@ -221,7 +221,7 @@ blockquote {
     font-weight: 400;
     border-left: 15px solid #ffc900;
     padding-left: 40px;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 h1,
