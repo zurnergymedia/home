@@ -4,7 +4,7 @@
           hour = minute * 60,
           day = hour * 24;
   
-    let date = "Jan 30, 2021 00:22:000",
+    let date = "Jan 31, 2021 00:22:000",
         countDown = new Date(date).getTime(),
         x = setInterval(function() {    
   
@@ -49,7 +49,7 @@
             hour = minute * 60,
             day = hour * 24;
     
-      let date = "Jan 30, 2021 00:22:000",
+      let date = "Jan 31, 2021 00:22:000",
           countDown = new Date(date).getTime(),
           x = setInterval(function() {    
     
@@ -67,8 +67,8 @@
     
             //do something later when date is reached
             if (distance < 0) {
-              let countdown = document.getElementById("countdown"),
-                  content = document.getElementById("content2");
+              let countdown = document.getElementById("countdown2"),
+                  content = document.getElementById("content3");
     
               // headline.innerText = "It's my birthday!";
               countdown.style.display = "none";
@@ -94,7 +94,7 @@
               hour = minute * 60,
               day = hour * 24;
       
-        let date = "Jan 30, 2021 00:22:000",
+        let date = "Jan 31, 2021 00:22:000",
             countDown = new Date(date).getTime(),
             x = setInterval(function() {    
       
@@ -112,8 +112,8 @@
       
               //do something later when date is reached
               if (distance < 0) {
-                let countdown = document.getElementById("countdown"),
-                    content = document.getElementById("content2");
+                let countdown = document.getElementById("countdown3"),
+                    content = document.getElementById("content4");
       
                 // headline.innerText = "It's my birthday!";
                 countdown.style.display = "none";
@@ -138,7 +138,7 @@
                 hour = minute * 60,
                 day = hour * 24;
         
-          let date = "Jan 30, 2021 00:22:000",
+          let date = "Jan 31, 2021 00:22:000",
               countDown = new Date(date).getTime(),
               x = setInterval(function() {    
         
@@ -156,8 +156,8 @@
         
                 //do something later when date is reached
                 if (distance < 0) {
-                  let countdown = document.getElementById("countdown"),
-                      content = document.getElementById("content2");
+                  let countdown = document.getElementById("countdown4"),
+                      content = document.getElementById("content5");
         
                   // headline.innerText = "It's my birthday!";
                   countdown.style.display = "none";

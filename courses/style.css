@@ -1945,7 +1945,21 @@ li.social-footer a:first-child
     display: none;
     /* padding: 1rem; */
   }
+  #content3 {
+    display: none;
+    /* padding: 1rem; */
+  }
+  #content4 {
+    display: none;
+    /* padding: 1rem; */
+  }
   
+  #content5 {
+    display: none;
+    /* padding: 1rem; */
+  }
+
+
   .emoji {
     font-size: 0.4em !important;
     padding: 1rem;
