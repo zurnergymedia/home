@@ -4,7 +4,7 @@
           hour = minute * 60,
           day = hour * 24;
   
-    let date = "Jan 31, 2021 00:22:000",
+    let date = "Feb 10, 2021 00:22:000",
         countDown = new Date(date).getTime(),
         x = setInterval(function() {    
   
@@ -49,7 +49,7 @@
             hour = minute * 60,
             day = hour * 24;
     
-      let date = "Jan 31, 2021 00:22:000",
+      let date = "Feb 10, 2021 00:22:000",
           countDown = new Date(date).getTime(),
           x = setInterval(function() {    
     
@@ -94,7 +94,7 @@
               hour = minute * 60,
               day = hour * 24;
       
-        let date = "Jan 31, 2021 00:22:000",
+        let date = "Feb 10, 2021 00:22:000",
             countDown = new Date(date).getTime(),
             x = setInterval(function() {    
       
@@ -138,7 +138,7 @@
                 hour = minute * 60,
                 day = hour * 24;
         
-          let date = "Jan 31, 2021 00:22:000",
+          let date = "Feb 10, 2021 00:22:000",
               countDown = new Date(date).getTime(),
               x = setInterval(function() {    
         
