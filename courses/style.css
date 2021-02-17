@@ -25,7 +25,7 @@ body
     line-height: 28px;
     font-weight: 400;
     color: #444;
-    background-color: #f4f4f1;
+    background-color: rgba(255, 201, 38, 0.2);
     letter-spacing: 0.5px;
 }
 
@@ -250,7 +250,9 @@ body a:hover
     width: 0 !important;
     height: 0 !important;
 }
-
+.entry-header{
+    /* background-color: #000; */
+}
 .menu-holder
 {
     color: #fff;
@@ -1895,10 +1897,13 @@ li.social-footer a:first-child
   
  
   #headline{
-    font-size: 0.9em !important;
+    font-size: 1.3em !important;
     font-weight: normal;
     /* letter-spacing: .125rem; */
     text-transform: uppercase;
+  }
+  .headline{
+    font-size: 1.3em !important;
   }
  
   li {
