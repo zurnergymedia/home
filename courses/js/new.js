@@ -138,7 +138,7 @@
                 hour = minute * 60,
                 day = hour * 24;
         
-          let date = "Mar 30, 2021 00:22:000",
+          let date = "Dec 30, 2021 00:22:000",
               countDown = new Date(date).getTime(),
               x = setInterval(function() {    
         
