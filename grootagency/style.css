@@ -374,7 +374,7 @@ body a:hover
 
 .blog-item-holder
 {
-    margin-top: -50px;
+    margin-top: 5%;
     text-align: center; 
 }
 
@@ -544,7 +544,7 @@ body a:hover
 .read-more-arrow a
 {
     color: #fff;    
-    background-color: #000;
+    background-color: #002233;
     width: 54px;
     height: 54px;
     display: block;
